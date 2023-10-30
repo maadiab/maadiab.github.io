@@ -39,16 +39,19 @@
         border-radius: 8px;
         width: 100%;
 
-
+text-align: center;
+margin: .5rem;
 
         &--preview {
-            background-color: blue;
-            width: 30%;
+            background-color: var(--color-blue-hue-1);
+
+
+            width: 100%;
         }
 
         &--source {
-            background-color: red;
-            width: 70%;
+            background-color: var(--color-green-hue-1);
+            width: 100%;
         }
     }
 }

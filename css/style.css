@@ -1,3 +1,13 @@
+:root {
+  --color-blue-hue-1:#4681f4;
+  --color-blue-hue-1:#5783db;
+  --color-blue-hue-1:#55c2da;
+  --color-green-hue-1:#5dbea3;
+  --color-green-hue-2:#33b249;
+  --color-green-hue-3:#5adbb5;
+  --color-purble-hue-1:#a881af;
+  --color-purble-hue-1:#80669d; }
+
 * {
   margin: 0;
   padding: 0; }
@@ -39,10 +49,12 @@ body {
     padding: 1rem;
     color: white;
     border-radius: 8px;
-    width: 100%; }
+    width: 100%;
+    text-align: center;
+    margin: .5rem; }
     .item__link--preview {
-      background-color: blue;
-      width: 30%; }
+      background-color: var(--color-blue-hue-1);
+      width: 100%; }
     .item__link--source {
-      background-color: red;
-      width: 70%; }
+      background-color: var(--color-green-hue-1);
+      width: 100%; }
