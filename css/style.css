@@ -25,14 +25,36 @@ body {
   font-size: 1.4rem;
   font-family: 'Open Sans'; }
 
+.section__header {
+  margin: 4rem 4rem;
+  color: #777;
+  font-size: 4rem;
+  font-weight: bolder;
+  text-transform: uppercase;
+  text-align: center;
+  position: relative; }
+  .section__header::before {
+    content: "projects";
+    color: lightgray;
+    font-size: 30rem;
+    margin: 1rem 0;
+    position: absolute;
+    top: -8rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -100;
+    margin: 1rem auto; }
+
 .container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
   grid-gap: 2rem;
   width: 75%;
-  margin: 5rem auto; }
+  margin: 5rem auto;
+  margin-top: 10rem; }
 
 .item {
+  background-color: #fff;
   padding: 2rem;
   border-radius: 1.5rem;
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);

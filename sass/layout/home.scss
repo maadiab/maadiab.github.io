@@ -1,0 +1,29 @@
+.section{
+
+    &__header{
+        margin: 4rem 4rem;
+
+        color:#777;
+        font-size: 4rem;
+        font-weight:bolder;
+        text-transform: uppercase;
+        text-align: center;
+position: relative;
+
+        &::before{
+
+            content: "projects";
+            color:lightgray;
+            font-size: 30rem;
+            margin: 1rem 0;
+            position: absolute;
+            top:-8rem;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: -100;
+            margin: 1rem auto;
+        }
+    }
+
+
+}

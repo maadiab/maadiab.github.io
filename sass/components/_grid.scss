@@ -4,19 +4,20 @@
     grid-gap: 2rem;
     width: 75%;
     margin: 5rem auto;
-
+    margin-top: 10rem;
 
 }
 
 
 .item {
+    background-color: #fff;
     padding: 2rem;
     // background-color: #777;
     border-radius: 1.5rem;
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, .2);
- display: grid;
- grid-template-columns:1fr ;
- grid-gap:3rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 3rem;
 
     &__buttons {
         display: flex;
