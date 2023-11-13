@@ -1,12 +1,12 @@
 :root {
-  --color-blue-hue-1:#4681f4;
-  --color-blue-hue-1:#5783db;
-  --color-blue-hue-1:#55c2da;
-  --color-green-hue-1:#5dbea3;
-  --color-green-hue-2:#33b249;
-  --color-green-hue-3:#5adbb5;
-  --color-purble-hue-1:#a881af;
-  --color-purble-hue-1:#80669d; }
+  --color-blue-hue-1: #4681f4;
+  --color-blue-hue-1: #5783db;
+  --color-blue-hue-1: #55c2da;
+  --color-green-hue-1: #5dbea3;
+  --color-green-hue-2: #33b249;
+  --color-green-hue-3: #5adbb5;
+  --color-purble-hue-1: #a881af;
+  --color-purble-hue-1: #80669d; }
 
 * {
   margin: 0;
@@ -26,32 +26,36 @@ body {
   font-family: 'Open Sans'; }
 
 .section__header {
-  margin: 4rem 4rem;
+  margin-top: 2rem;
+  height: 20rem;
   color: #777;
   font-size: 4rem;
   font-weight: bolder;
   text-transform: uppercase;
   text-align: center;
-  position: relative; }
+  position: relative;
+  background-color: transparent;
+  position: relative;
+  overflow: hidden; }
   .section__header::before {
     content: "projects";
     color: lightgray;
-    font-size: 30rem;
+    font-size: 20rem;
     margin: 1rem 0;
     position: absolute;
     top: -8rem;
     left: 50%;
     transform: translateX(-50%);
-    z-index: -100;
-    margin: 1rem auto; }
+    margin: 1rem auto;
+    z-index: -10; }
 
 .container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
   grid-gap: 2rem;
   width: 75%;
-  margin: 5rem auto;
-  margin-top: 10rem; }
+  margin: 1rem auto;
+  background-color: transparent; }
 
 .item {
   background-color: #fff;

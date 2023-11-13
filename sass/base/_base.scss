@@ -1,17 +1,17 @@
 :root {
 
 
-    --color-blue-hue-1:#4681f4;
-    --color-blue-hue-1:#5783db;
-    --color-blue-hue-1:#55c2da;
-    --color-green-hue-1:#5dbea3;
-    --color-green-hue-2:#33b249;
-    --color-green-hue-3:#5adbb5;
+    --color-blue-hue-1: #4681f4;
+    --color-blue-hue-1: #5783db;
+    --color-blue-hue-1: #55c2da;
+    --color-green-hue-1: #5dbea3;
+    --color-green-hue-2: #33b249;
+    --color-green-hue-3: #5adbb5;
 
 
-    --color-purble-hue-1:#a881af;
-    --color-purble-hue-1:#80669d;
-    
+    --color-purble-hue-1: #a881af;
+    --color-purble-hue-1: #80669d;
+
 
 }
 
@@ -32,12 +32,14 @@
 
 html {
     box-sizing: border-box;
-    font-size:62.5%;
+    font-size: 62.5%;
 }
 
 
 body {
 
-    font-size:1.4rem;
-    font-family:'Open Sans'
+    font-size: 1.4rem;
+    font-family: 'Open Sans';
+
+
 }
