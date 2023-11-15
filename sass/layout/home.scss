@@ -15,25 +15,48 @@
         position: relative;
         overflow: hidden;
 
+        &--projects {
+            &::before {
 
-        &::before {
-
-            content: "projects";
-            color: lightgray;
-            font-size: 20rem;
-            margin: 1rem 0;
-            position: absolute;
-            top: -8rem;
-            left: 50%;
-            transform: translateX(-50%);
-            margin: 1rem auto;
-            z-index: -10;
+                content: "projects";
+                color: lightgray;
+                font-size: 20rem;
+                margin: 1rem 0;
+                position: absolute;
+                top: -8rem;
+                left: 50%;
+                transform: translateX(-50%);
+                margin: 1rem auto;
+                z-index: -10;
+                filter: brightness(107%);
+            }
         }
+
+
+
+        &--challenges {
+            &::before {
+
+                content: "challenges";
+                color: lightgray;
+                font-size: 20rem;
+                margin: 1rem 0;
+                position: absolute;
+                top: -8rem;
+                left: 50%;
+                transform: translateX(-50%);
+                margin: 1rem auto;
+                z-index: -10;
+                filter: brightness(107%);
+            }
+        }
+
+
+
 
     }
 
 
-    .projects {}
 
 
 
